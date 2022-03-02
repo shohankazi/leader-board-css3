@@ -1,0 +1,33 @@
+/* common styles or utilities */
+body{
+font-family: 'Poppins', sans-serif;
+background-color: #f3f1ff;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: white;
+    width: 870px;
+    padding: 33px 30px;
+}
+/* top players style */
+.section-title{
+    color: #562EFF;
+    font-size: 24px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player-name{
+    margin-left: 16px;
+}
+.player img{
+    width: 56px;
+}
